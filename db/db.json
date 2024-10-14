@@ -1,102 +1,39 @@
-[
-  {
-    "id": "1",
-    "name": "Vitamin C Tablets",
-    "description": "500mg Vitamin C tablets to boost immune system",
-    "price": 19.99,
-    "stock": 150,
-    "category": "Vitamins",
-    "expiryDate": "2025-12-31",
-    "supplier": "HealthPlus Pharmaceuticals"
-  },
-  {
-    "id": "2",
-    "name": "Omega-3 Fish Oil",
-    "description": "1000mg Omega-3 softgels for heart and brain health",
-    "price": 29.99,
-    "stock": 80,
-    "category": "Supplements",
-    "expiryDate": "2024-11-15",
-    "supplier": "NutriCore Inc."
-  },
-  {
-    "id": "3",
-    "name": "Calcium + Vitamin D",
-    "description": "Calcium tablets with Vitamin D to support bone health",
-    "price": 15.5,
-    "stock": 200,
-    "category": "Minerals",
-    "expiryDate": "2026-06-01",
-    "supplier": "WellLife Labs"
-  },
-  {
-    "id": "4",
-    "name": "Zinc Lozenges",
-    "description": "Zinc lozenges for immune support and cold relief",
-    "price": 12.99,
-    "stock": 120,
-    "category": "Immune Support",
-    "expiryDate": "2024-09-30",
-    "supplier": "Herbal Essentials"
-  },
-  {
-    "id": "5",
-    "name": "Probiotic Capsules",
-    "description": "10 billion CFUs per capsule to support digestive health",
-    "price": 25.75,
-    "stock": 60,
-    "category": "Probiotics",
-    "expiryDate": "2025-03-20",
-    "supplier": "Gut Health Labs"
-  },
-  {
-    "id": "6",
-    "name": "Magnesium Glycinate",
-    "description": "Highly absorbable magnesium for relaxation and muscle recovery",
-    "price": 18.25,
-    "stock": 95,
-    "category": "Minerals",
-    "expiryDate": "2024-12-10",
-    "supplier": "Pure Wellness"
-  },
-  {
-    "id": "7",
-    "name": "Collagen Powder",
-    "description": "Hydrolyzed collagen peptides for skin, hair, and joint support",
-    "price": 39.99,
-    "stock": 40,
-    "category": "Beauty Supplements",
-    "expiryDate": "2025-08-05",
-    "supplier": "BeautyNaturals"
-  },
-  {
-    "id": "8",
-    "name": "Elderberry Syrup",
-    "description": "Organic elderberry syrup for immune system support",
-    "price": 22.5,
-    "stock": 70,
-    "category": "Immune Support",
-    "expiryDate": "2023-12-31",
-    "supplier": "Nature's Remedies"
-  },
-  {
-    "id": "9",
-    "name": "Vitamin B12",
-    "description": "1000mcg Vitamin B12 tablets for energy and metabolism",
-    "price": 13.99,
-    "stock": 180,
-    "category": "Vitamins",
-    "expiryDate": "2025-02-28",
-    "supplier": "VitaBalance"
-  },
-  {
-    "id": "10",
-    "name": "Iron Supplement",
-    "description": "Ferrous sulfate iron supplement for treating anemia",
-    "price": 16.8,
-    "stock": 130,
-    "category": "Minerals",
-    "expiryDate": "2024-05-15",
-    "supplier": "IronPower"
-  }
-]
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Vitamin C Tablets",
+      "price": 19.99,
+      "expiryDate": "2025-12-31",
+      "emailSupplier": "contact@healthplus.com"
+    },
+    {
+      "id": "2",
+      "name": "Omega-3 Fish Oil",
+      "price": 29.99,
+      "expiryDate": "2024-11-15",
+      "emailSupplier": "support@nutricore.com"
+    },
+    {
+      "id": "3",
+      "name": "Calcium + Vitamin D",
+      "price": 15.5,
+      "expiryDate": "2026-06-01",
+      "emailSupplier": "orders@welllifelabs.com"
+    },
+    {
+      "id": "4",
+      "name": "Zinc Lozenges",
+      "price": 12.99,
+      "expiryDate": "2024-09-30",
+      "emailSupplier": "sales@herbalessentials.com"
+    },
+    {
+      "id": "5",
+      "name": "Probiotic Capsules",
+      "price": 25.75,
+      "expiryDate": "2025-03-20",
+      "emailSupplier": "info@guthealthlabs.com"
+    }
+  ]
+}
