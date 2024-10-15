@@ -34,6 +34,13 @@
       "price": 25.75,
       "expiryDate": "2025-03-20",
       "emailSupplier": "info@guthealthlabs.com"
+    },
+    {
+      "id": "0839",
+      "name": "Test",
+      "price": 100,
+      "expiryDate": "2025-10-10",
+      "emailSupplier": "info@sales.com"
     }
   ]
 }

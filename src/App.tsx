@@ -1,10 +1,14 @@
-function App() {
+import { QueryClient, QueryClientProvider } from "react-query";
+import Form from "./components/form/Form";
 
+const queryClient = new QueryClient();
+
+function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
-  )
+    <QueryClientProvider client={queryClient}>
+      <Form />
+    </QueryClientProvider>
+  );
 }
 
-export default App
+export default App;
