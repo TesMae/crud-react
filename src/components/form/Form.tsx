@@ -33,6 +33,7 @@ const Form = () => {
           type="number"
           placeholder="Price"
           name="price"
+          step="0.01"
           register={register}
           error={errors.price}
           valueAsNumber

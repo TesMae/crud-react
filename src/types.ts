@@ -20,3 +20,11 @@ export const ProductSchema: ZodType<FormData> = z.object({
     ),
   emailSupplier: z.string().email(),
 });
+
+export type Product = {
+  id: string;
+  name: string;
+  price: number;
+  expiryDate: string;
+  emailSupplier: string;
+};

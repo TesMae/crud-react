@@ -1,46 +1,39 @@
 {
   "products": [
     {
-      "id": "1",
+      "id": "w38y",
       "name": "Vitamin C Tablets",
       "price": 19.99,
-      "expiryDate": "2025-12-31",
+      "expiryDate": "2025-01-01",
       "emailSupplier": "contact@healthplus.com"
     },
     {
-      "id": "2",
+      "id": "a99x",
       "name": "Omega-3 Fish Oil",
-      "price": 29.99,
+      "price": 30.99,
       "expiryDate": "2024-11-15",
       "emailSupplier": "support@nutricore.com"
     },
     {
-      "id": "3",
+      "id": "x82j",
       "name": "Calcium + Vitamin D",
       "price": 15.5,
       "expiryDate": "2026-06-01",
       "emailSupplier": "orders@welllifelabs.com"
     },
     {
-      "id": "4",
+      "id": "a40i",
       "name": "Zinc Lozenges",
       "price": 12.99,
       "expiryDate": "2024-09-30",
       "emailSupplier": "sales@herbalessentials.com"
     },
     {
-      "id": "5",
+      "id": "c52f",
       "name": "Probiotic Capsules",
       "price": 25.75,
       "expiryDate": "2025-03-20",
       "emailSupplier": "info@guthealthlabs.com"
-    },
-    {
-      "id": "0839",
-      "name": "Test",
-      "price": 100,
-      "expiryDate": "2025-10-10",
-      "emailSupplier": "info@sales.com"
     }
   ]
 }

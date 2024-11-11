@@ -8,6 +8,7 @@ type FormFieldProps = {
   register: UseFormRegister<FormData>;
   error: FieldError | undefined;
   valueAsNumber?: boolean;
+  step?: number | string;
 };
 
 const FormField = ({
@@ -17,11 +18,13 @@ const FormField = ({
   register,
   error,
   valueAsNumber,
+  step,
 }: FormFieldProps) => (
   <>
     <input
       type={type}
       placeholder={placeholder}
+      step={step}
       {...register(name, { valueAsNumber })}
     />
     {error && <span> {error.message} </span>}
